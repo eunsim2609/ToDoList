@@ -1,0 +1,103 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);//  font-family: 'Nanum Myeongjo', serif;
+@font-face {
+  font-family: 'Arita-buri-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+          
+
+body {
+  width: 480px;
+  margin: 0 auto;
+}
+
+.App {
+  height: 400px;
+  border: black solid 1px;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+//date
+.date {
+  flex: 1;
+  overflow: auto;
+  border-bottom:1px black solid;
+}
+
+.dateBox {
+  display: flex;
+  max-width: 100%;
+
+  img {
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+  }
+  span {
+    flex: auto;
+    margin: auto;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 40px;
+    text-shadow: #FC0 1px 0 10px;;
+  }
+}
+
+//add
+
+.addendum {
+  width: 85%;
+  margin: auto;
+  margin-top: 10px;
+  input {
+    height: 40px;
+    // margin: auto;
+  }
+
+  button {
+  border: none;
+  background-color: orange;
+  color: #fff;
+  font-size: 1.1em;
+  }
+}
+
+//contents
+.contents {
+  flex: 6;
+}
+//TCO
+.TOC {
+  border-bottom: 2px rgba(238, 102, 52, 0.863) solid;
+  border-right: 2px rgba(238, 102, 52, 0.863) solid;
+  border-radius: 1em;
+  display: flex;
+  background-color: orange;
+  width:70%;
+  height: 60px;
+  margin: auto;
+  margin-top: 10px;
+  p {
+    margin: auto;
+    text-align: center;
+    flex: 9;
+    display: inline;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Arita-buri-SemiBold';
+  }
+  button {
+    border: none;
+    color: red;
+    font-size: small;
+    font-weight: bold;
+    background-color: white;
+    height: 25px;
+    flex: 0.1;
+    margin: 15px 10px 0px 0px;
+  }
+}
