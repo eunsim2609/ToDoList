@@ -20,9 +20,9 @@ body {
   max-width: 100%;
 }
 
-//date
-.date {
-  flex: 1;
+//toDoDate
+.Date {
+  flex: 1.5;
   overflow: auto;
   border-bottom:1px black solid;
 }
@@ -46,16 +46,27 @@ body {
   }
 }
 
-//add
+// ToDoList
+.todolist {
+  li {
+    display: inline;
+  }
+}
 
-.addendum {
+// ToDoForm
+.Add {
+  flex: 1.5;
+  overflow: auto;
+  border-bottom:1px black solid;
+}
+.mb-3 {
   width: 85%;
   margin: auto;
   margin-top: 10px;
   input {
     height: 40px;
-    // margin: auto;
   }
+
 
   button {
   border: none;
@@ -65,11 +76,9 @@ body {
   }
 }
 
-//contents
-.contents {
-  flex: 6;
-}
-//TCO
+
+
+// ToDoForm
 .TOC {
   border-bottom: 2px rgba(238, 102, 52, 0.863) solid;
   border-right: 2px rgba(238, 102, 52, 0.863) solid;
@@ -78,9 +87,9 @@ body {
   background-color: orange;
   width:70%;
   height: 60px;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 10px;
-  p {
+  span {
     margin: auto;
     text-align: center;
     flex: 9;
@@ -100,4 +109,9 @@ body {
     flex: 0.1;
     margin: 15px 10px 0px 0px;
   }
+}
+
+.List {
+  flex: 6;
+  overflow: auto;
 }

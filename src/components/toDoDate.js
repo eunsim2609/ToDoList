@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../App.scss";
 
-class DateBox extends Component {
+
+class ToDoDate extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -45,5 +45,4 @@ class DateBox extends Component {
   }
 }
 
-
-export default DateBox;
+export default ToDoDate;
