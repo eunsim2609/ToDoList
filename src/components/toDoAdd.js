@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, InputGroup, FormControl } from 'react-bootstrap';
 import '../App.scss';
 
-class ToDoForm extends Component {
+class ToDoAdd extends Component {
     state = {
         text: '',
     };
@@ -14,8 +14,7 @@ class ToDoForm extends Component {
         });
     };
 
-    handleSubmit = (e) => {
-        e.preventDefault();
+    handleSubmit = () => {
         this.props.onCreate(this.state);
         this.setState({
             text: '',
@@ -46,4 +45,4 @@ class ToDoForm extends Component {
     }
 }
 
-export default ToDoForm;
+export default ToDoAdd;

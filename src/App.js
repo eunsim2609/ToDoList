@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 import ToDoDate from './components/toDoDate';
 import ToDoList from './components/toDoList';
-import ToDoForm from './components/toDoForm';
+import ToDoAdd from './components/toDoAdd';
 
 
 
@@ -22,7 +22,6 @@ class App extends Component {
       id: 3,
       text: '식단'
     }],
-    search: '',
   };
 
   handleCreate = (data) => {
@@ -47,7 +46,7 @@ class App extends Component {
           <ToDoDate />
         </div>
         <div className="Add">
-          <ToDoForm onCreate={this.handleCreate} />
+          <ToDoAdd onCreate={this.handleCreate} />
         </div>
         <div className="List">
           <ToDoList data={toDoList} onRemove={this.handleRemove} />

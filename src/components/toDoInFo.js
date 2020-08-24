@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ToDoInFo extends Component {
+class ToDoInfo extends Component {
     render() {
         const { data, onRemove } = this.props;
         return(
@@ -12,4 +12,4 @@ class ToDoInFo extends Component {
     }
 }
 
-export default ToDoInFo;
+export default ToDoInfo;

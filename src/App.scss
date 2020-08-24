@@ -1,10 +1,11 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);//  font-family: 'Nanum Myeongjo', serif;
 @font-face {
-  font-family: 'Arita-buri-SemiBold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+  font-family: 'InfinitySans-RegularA1';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+          
           
 
 body {
@@ -69,24 +70,19 @@ body {
 
 
   button {
-  border: none;
-  background-color: orange;
-  color: #fff;
+  background-color: #FC0;
+  color: rgb(82, 81, 81);
   font-size: 1.1em;
   }
 }
 
-
-
 // ToDoForm
 .TOC {
-  border-bottom: 2px rgba(238, 102, 52, 0.863) solid;
-  border-right: 2px rgba(238, 102, 52, 0.863) solid;
-  border-radius: 1em;
+  border: 1px black solid;
+  border-radius: 0.3em;
   display: flex;
-  background-color: orange;
   width:70%;
-  height: 60px;
+  height: 50px;
   margin: 0 auto;
   margin-top: 10px;
   span {
@@ -94,12 +90,12 @@ body {
     text-align: center;
     flex: 9;
     display: inline;
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Arita-buri-SemiBold';
+    color: rgb(82, 81, 81);
+    font-size: 30px;
+    font-family: 'InfinitySans-RegularA1';
   }
   button {
+    border: solid 1px black;
     border: none;
     color: red;
     font-size: small;

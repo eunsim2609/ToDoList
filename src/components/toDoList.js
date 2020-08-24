@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import ToDoInfo from './toDoInFo';
-import '../App.scss'
+import ToDoInfo from './toDoInfo';
+import '../App.scss';
+
 class ToDoList extends Component {
-    render() {
-        const {data, onRemove} = this.props;
+    render(){
+        const { data, onRemove } = this.props;
+
         return (
             <div className="todolist">
                 <ul>
